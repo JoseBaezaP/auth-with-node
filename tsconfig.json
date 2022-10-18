@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "rootDir": "app",
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots" : ["./node_modules/@types", "./typings"],
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+  },
+  "include": ["app/**/*.ts"],
+  "exclude": ["node_modules", "./typings"],
+  "files": ["app/declarations.d.ts"]
+}
